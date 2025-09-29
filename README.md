@@ -22,6 +22,7 @@ this is what the configure.h documentation says
 ## 1. File info
 - esp32-s3-devkit-e22/variant.h - define connection and setup configure
 - esp32-s3-devkit-e22/platformio.ini - platformio config file
+- esp32-s3-devkit-e22/pins_arduino.h - required config file for arduino/esp platforms
 - boards/esp32-s3-devkit-e22.json - board devkit c1 clone configuration
 - partion.csv - partition file for 16MB flash - put in header folder
 
