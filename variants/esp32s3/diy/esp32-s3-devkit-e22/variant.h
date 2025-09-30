@@ -7,17 +7,17 @@
 #define SX126X_MAX_POWER 22 // max power + gain = max radio power - EU 27db
 #define SX126X_DIO3_TCXO_VOLTAGE 1.8 // required with documentation
 
-#define SX126X_CS 10    // EBYTE module's NSS pin // FIXME: rename to SX126X_SS
-#define SX126X_SCK 12   // EBYTE module's SCK pin
-#define SX126X_MOSI 11 // EBYTE module's MOSI pin
-#define SX126X_MISO 13 // EBYTE module's MISO pin  
+#define SX126X_CS 14    // EBYTE module's NSS pin // FIXME: rename to SX126X_SS
+#define SX126X_SCK 21   // EBYTE module's SCK pin
+#define SX126X_MOSI 38 // EBYTE module's MOSI pin
+#define SX126X_MISO 39 // EBYTE module's MISO pin  
 
-#define SX126X_RESET 4 // EBYTE module's NRST pin
-#define SX126X_BUSY 5 // EBYTE module's BUSY pin
-#define SX126X_DIO1 6 // EBYTE module's DIO1 pin
+#define SX126X_RESET 40 // EBYTE module's NRST pin
+#define SX126X_BUSY 41 // EBYTE module's BUSY pin
+#define SX126X_DIO1 42 // EBYTE module's DIO1 pin
 
-#define SX126X_TXEN 1 // Schematic connects EBYTE module's TXEN pin to MCU
-#define SX126X_RXEN 2 // Schematic connects EBYTE module's RXEN pin to MCU
+#define SX126X_TXEN 9 // Schematic connects EBYTE module's TXEN pin to MCU
+#define SX126X_RXEN 10 // Schematic connects EBYTE module's RXEN pin to MCU
 
 #define LORA_CS SX126X_CS     // Compatibility with variant file configuration structure
 #define LORA_SCK SX126X_SCK   // Compatibility with variant file configuration structure

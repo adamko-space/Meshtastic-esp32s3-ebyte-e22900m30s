@@ -39,10 +39,9 @@ Standard consumption is approximately 110mA, with an average of 350-450mW at 27d
 - ADD a 100nF capacitor between the +5V power supply for the radio module and GND, and a 2000uF electrolytic capacitor to maintain power.
 
 ## 4. Troubleshooting
-I'm on the 2.7.9-10 alpha software package and there are a few bugs
-- IN WIFI connection - **without** E22 radio module: after setup wifi, connect via client.meshtastic causes reboot - SSL problem , via iOS app the problem does not occur
-- IN WIFI connection - **with** E22 radio module:  connect via client.meshtastic and via iOS app there is no possibility of connection
-- random reboot -logs rtc reboot ?
+I'm on the 2.7.9-10 alpha software package.
+
+-https ssl cert error during connect from client.meshtatistc.org
 
 Apart from these issues, everything seems to be working fine.
 
